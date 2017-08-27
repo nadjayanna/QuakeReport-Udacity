@@ -35,6 +35,12 @@ public final class Utils {
      */
     public static List<Earthquake> fetchEarthquakeData(String requestUrl) {
 
+        /*try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }*/
+
         List<Earthquake> result = null;
 
         // Create URL object
